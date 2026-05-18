@@ -39,3 +39,29 @@ When an asset is assigned to an employee (e.g., during onboarding), a formal "Ch
 
 * **Digital Sign-off:** The employee must log into their workspace portal and explicitly click "Accept" on their hardware inventory dashboard. This generates an electronic receipt signature attached to the asset's history log.
 * **Bi-Annual Physical Audits:** Every 6 months, the IT Technician will trigger an inventory verification request via SnipeIT. Users must confirm they are still in physical possession of their assigned asset tag numbers to maintain regulatory compliance.
+  
+---
+
+### 5. Employee Offboarding & Hardware Reclamation Workflow
+When an employee transitions out of Boyles IT Solutions, the IT Service Coordinator coordinates a zero-downtime asset reclamation pipeline.
+
+#### Phase 1: Identity & SaaS Access Revocation
+1. **Trigger Event:** HR logs a high-priority termination/departure ticket in the help desk queue.
+2. **Session Termination:** Within 15 minutes of the employee's official departure time, the IT Technician uses the Google Workspace Admin console to **Revoke Active Sign-In Sessions**.
+3. **Password Rotation:** Trigger a forced administrative password reset and suspend the user account. *Do not delete the account immediately to preserve data inheritance.*
+4. **SaaS De-provisioning:** Release software assignments inside SnipeIT (e.g., Jira, Zoom, Adobe licenses) to instantly free up available seats for future hires, saving licensing costs.
+
+#### Phase 2: Physical Hardware Reclamation
+1. **The Shipping Protocol:** For remote workers, the IT Customer Success team ships a pre-paid, insured hardware recovery box containing custom foam inserts to the employee’s address.
+2. **Check-In Log:** Upon receiving the physical assets back at the IT Depot, inspect the laptop and monitor for physical damage.
+3. **SnipeIT Database Update:** Open SnipeIT, select the asset tags, and click **Check-In**. Change the status label from *Deployed* to **Pending Maintenance / Lifecycle Evaluation**.
+
+---
+
+### 6. E-Waste, Deprecation, and Secure Disposal
+When a laptop hits its **36-month deprecation limit** or suffers terminal hardware failure, it enters the final decommissioning stage.
+
+1. **Cryptographic Erasure (Sanitization):** The IT Technician boots the machine into a secure environment and runs a full cryptographic wipe (e.g., DBAN or NVMe Secure Erase) to ensure no proprietary corporate data or user data remains on the storage controllers.
+2. **Remove Physical Branding:** Peel off all internal asset tags, company stickers, and corporate inventory labels.
+3. **Certified E-Waste Disposal:** Hand off the sanitized hardware to a certified R2-compliant electronic recycling vendor. Obtain a **Certificate of Destruction** and upload it as an attachment to the specific asset's archive profile inside SnipeIT.
+4. **Final Archive:** Mark the asset status in SnipeIT as **Decommissioned/Destroyed** to permanently close out its lifecycle trail.
