@@ -13,6 +13,7 @@ This repository serves as the central administrative control deck for our backen
 | :--- | :--- | :--- | :--- |
 | 📄 **POL-2001** | Asset Management | [IT Asset Governance & Procurement Standard](./asset-management-playbook.md) | IT Technicians & Coordinators |
 | ⚙️ **OPS-2003** | Service Desk | [Incident Management & Service Level Agreements (SLA)](./helpdesk-sla-framework.md) | Help Desk & Support Teams |
+| 🔐 **SEC-2004** | Identity & Access | [Identity Access Management (IAM) & RBAC Standard](./identity-governance-policy.md) | IT Admin & Security Teams |
 
 ---
 
