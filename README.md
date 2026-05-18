@@ -17,6 +17,7 @@ This repository serves as the central administrative control deck for our backen
 | 💾 **OPS-2005** | Data Continuity | [Corporate Backup Standards & Disaster Recovery](./disaster-recovery-backup-strategy.md) | Systems & Network Admins |
 | 💻 **SEC-2006** | Endpoint Governance | [Mobile Device Management (MDM) & Compliance](./endpoint-management-mdm-policy.md) | Help Desk & Deployment Teams |
 | ☁️ **FIN-2007** | SaaS Optimization | [SaaS Governance & License Auditing](./saas-governance-license-audit.md) | IT Operations & Success Teams |
+| 🌐 **NET-2008** | Network Security | [Network Security & Secure Remote Access](./network-security-remote-access.md) | Network & Support Technicians |
 
 ---
 
