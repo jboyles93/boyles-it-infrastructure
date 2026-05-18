@@ -12,7 +12,7 @@ This repository serves as the central administrative control deck for our backen
 | Document ID | Category | Policy / Playbook Title | Target Audience |
 | :--- | :--- | :--- | :--- |
 | 📄 **POL-2001** | Asset Management | [IT Asset Governance & Procurement Standard](./asset-management-playbook.md) | IT Technicians & Coordinators |
-| 🔧 **OPS-2002** | Fleet Management | *Automated Mobile Device Management (MDM) Profiles (Pending)* | Systems Administrators |
+| ⚙️ **OPS-2003** | Service Desk | [Incident Management & Service Level Agreements (SLA)](./helpdesk-sla-framework.md) | Help Desk & Support Teams |
 
 ---
 
